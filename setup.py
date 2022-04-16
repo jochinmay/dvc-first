@@ -14,8 +14,10 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/jochinmay/dvc-first",
     author_email="jochinmay94@gmail.com",
-    package_dir={"":"src"},
-    packages=find_packages(where="src"),license="GNU",
+    # package_dir={"":"src"},
+    # packages=find_packages(where="src"),license="GNU",
+    packages=["src"],
+    license="GNU",
     python_requires=">=3.6",
     install_requires=['dvc','dvc[gdrive]','dvc[s3]','pandas','scikit-learn']
 )
