@@ -1,5 +1,4 @@
 from distutils.command.config import config
-import imp
 from pkgutil import get_data
 import pandas as pd
 import argparse

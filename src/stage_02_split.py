@@ -1,5 +1,4 @@
 from distutils.command.config import config
-import imp
 import pandas as pd
 import argparse
 from src.utils.common_utils import (read_params,create_dir,save_local_df)
